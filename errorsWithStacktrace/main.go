@@ -7,7 +7,7 @@ import (
 	"github.com/pkg/errors"
 )
 
-// A function that simulates an error
+// A function that simulates an error s
 func readFile(filename string) (string, error) {
 	file, err := os.Open(filename)
 	if err != nil {
